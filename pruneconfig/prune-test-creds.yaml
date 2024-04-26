@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: prune-credentials
-  namespace: flux-system
+  namespace: default
 type: Opaque
 data:
   accesskey: bXlhY2Nlc3NrZXk=  # Base64 encoded 'myaccesskey'
